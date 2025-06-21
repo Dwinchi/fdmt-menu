@@ -6,7 +6,6 @@
   padding: 1rem;
   gap: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 h1 {
@@ -41,10 +40,23 @@ h1 {
   margin: 0.5rem;
 }
 
-.col-sm-2 {
-  grid-template-columns: 1fr 1fr;
+@media (min-width: 1px) {
+  .col-sm-2 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
-.col-md-4 {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}/*# sourceMappingURL=styles.css.map */
+/* @media (min-width: 768px) {
+    .col-sm-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+} */
+@media (min-width: 992px) {
+  .col-md-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+/* @media (mim-width: 1400px) {
+    .col-md-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+} *//*# sourceMappingURL=styles.css.map */
