@@ -11,8 +11,9 @@
 h1 {
   font-size: 32px;
   font-weight: 700;
-  justify-self: center;
   margin: 2rem 0;
+  text-align: -webkit-center;
+  text-align: center;
 }
 
 .card {
@@ -45,18 +46,8 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 }
-/* @media (min-width: 768px) {
-    .col-sm-2 {
-        grid-template-columns: 1fr 1fr;
-    }
-} */
 @media (min-width: 992px) {
   .col-md-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
-/* @media (mim-width: 1400px) {
-    .col-md-4 {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-} *//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
