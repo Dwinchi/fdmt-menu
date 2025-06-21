@@ -1,5 +1,18 @@
+@font-face {
+  font-family: gilroy;
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+}
+/* :root {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
 :root {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Gilroy, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .menu {
@@ -16,9 +29,18 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: -webkit-center;
+  text-align: center;
+}
+
 .card {
   border-radius: 8px;
   border: 1px solid black;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
 }
 .card img {
   max-width: 100%;
